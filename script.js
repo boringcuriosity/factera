@@ -45,5 +45,5 @@ const Factera = new Vue({
 	}
 });
 (function() {
-	Factera.getPosts();
+	Unapp.getPosts();
 })();
