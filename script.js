@@ -1,4 +1,4 @@
-const Factera = new Vue({
+const Unapp = new Vue({
 	el: '#factera',
 	data: {
 		query: '',
