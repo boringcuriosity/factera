@@ -1,5 +1,5 @@
-const Unapp = new Vue({
-	el: '#unapp',
+const Factera = new Vue({
+	el: '#factera',
 	data: {
 		query: '',
 		allPosts: [],
@@ -27,7 +27,7 @@ const Unapp = new Vue({
 		getPosts: function() {
 			this.isloading = true;
 			window
-				.fetch('https://boringcuriosity.github.io/factera/unapp.json')
+				.fetch('https://boringcuriosity.github.io/factera/factera.json')
 				.then(response => {
 					if (response.status >= 200 && response.status < 300) return response.json();
 				})
@@ -45,5 +45,5 @@ const Unapp = new Vue({
 	}
 });
 (function() {
-	Unapp.getPosts();
+	Factera.getPosts();
 })();
