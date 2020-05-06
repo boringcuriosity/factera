@@ -27,7 +27,7 @@ const Unapp = new Vue({
 		getPosts: function() {
 			this.isloading = true;
 			window
-				.fetch('https://boringcuriosity.github.io/factera/factera.json')
+				.fetch('https://boringcuriosity.github.io/factera/factera.json?limit=500')
 				.then(response => {
 					if (response.status >= 200 && response.status < 300) return response.json();
 				})
