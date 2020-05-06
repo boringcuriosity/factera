@@ -1,5 +1,5 @@
 const Factera = new Vue({
-	el: '#factera',
+	el: '#unapp',
 	data: {
 		query: '',
 		allPosts: [],
