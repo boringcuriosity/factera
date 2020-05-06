@@ -1,5 +1,5 @@
-const Unapp = new Vue({
-	el: '#unapp',
+const Factera = new Vue({
+	el: '#factera',
 	data: {
 		query: '',
 		allPosts: [],
@@ -45,5 +45,5 @@ const Unapp = new Vue({
 	}
 });
 (function() {
-	Unapp.getPosts();
+	Factera.getPosts();
 })();
