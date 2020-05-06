@@ -1,5 +1,5 @@
 const Unapp = new Vue({
-	el: '#Unapp',
+	el: '#unapp',
 	data: {
 		query: '',
 		allPosts: [],
